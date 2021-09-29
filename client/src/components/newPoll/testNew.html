@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<style>
+* {
+  --maincolor: #334257;
+  --orange: #FF9B42;
+  --tertiary: #548ca8;;
+  --bloop: #00aeef;
+  --white: #EEEEEE;
+}
+
+a:hover {
+    color: var(--orange)
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 15px;
+}
+</style>
+
+    <section>
+
+        <div>
+            <h1>Create New Poll!</h1>
+        </div>
+
+        <hr></hr>
+
+        <h3 class="column">Poll Name!</h3>
+        <input type="text" placeholder="new poll name">
+        <button>Save</button>
+    </section>
+
+    <section>
+        <div>
+            <h1>(created poll name)</h1>
+        </div>
+    
+        <h2>To begin, create initial poll options!</h2>
+        <input type="text" placeholder="new option">
+        <button>Save Option</button>
+    </section>
+  
+    <section>
+        <h2><a>Invite Friends To Poll!</a></h2>
+    </section>
+    
+
+</body>
+</html>
